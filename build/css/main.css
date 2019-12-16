@@ -387,6 +387,8 @@ table {
       position: absolute;
       right: 0;
       z-index: 30; } }
+  .hamburger:focus {
+    outline: none; }
 
 .body, html {
   overflow-x: hidden !important; }
@@ -430,7 +432,13 @@ table {
     width: 50%;
     text-align: center;
     transition-duration: 0.4s;
-    transform: translateX(100%); } }
+    transform: translateX(100%); }
+    .navigation_footer {
+      display: block;
+      width: 150px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px; } }
 
 .navigation__list {
   display: flex;
